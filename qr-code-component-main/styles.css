@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@100;200;300;400;500;700;800&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+   --White: hsl(0, 0%, 100%);
+   --Light-gray: hsl(212, 45%, 89%);
+   --Grayish-blue: hsl(220, 15%, 55%);
+   --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    font-size: 15px;
+    background: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+h2{
+    color: var(--Dark-blue);
+}
+p{
+    color: var(--Grayish-blue);
+    margin: 20px;
+}
+.attribution { 
+    position: relative;
+    font-size: 11px; text-align: center; 
+    top: 300px;
+}
+    .attribution a { 
+        position: relative;
+    color: hsl(228, 45%, 44%); 
+}
+.qr-card{
+    position: relative;
+    display: flex;
+    background: var(--White);
+    padding: 12px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 290px;
+    height: 480px;
+    top: 160px;
+    margin:0 auto ;
+
+}
+img{
+    border-radius: 12px;
+}
